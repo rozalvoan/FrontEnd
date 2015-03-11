@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+      <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cardápio Digital</title>
+	<!-- BOOTSTRAP STYLES-->
+    <link href="assets/css/bootstrap.css" rel="stylesheet" />
+     <!-- FONTAWESOME STYLES-->
+    <link href="assets/css/font-awesome.css" rel="stylesheet" />
+     <!-- MORRIS CHART STYLES-->
+   
+        <!-- CUSTOM STYLES-->
+    <link href="assets/css/custom.css" rel="stylesheet" />
+     <!-- GOOGLE FONTS-->
+   <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css' />
+     <!-- TABLE STYLES-->
+    <link href="assets/js/dataTables/dataTables.bootstrap.css" rel="stylesheet" />
+</head>
+<body>
+    <div id="wrapper">
+        <nav class="navbar navbar-default navbar-cls-top " role="navigation" style="margin-bottom: 0">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".sidebar-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="index.html">Administrador</a> 
+            </div>
+  <div style="color: white;
+padding: 15px 50px 5px 50px;
+float: right;
+font-size: 16px;"> Last access : 30 May 2014 &nbsp; <a href="#" class="btn btn-danger square-btn-adjust">Logout</a> </div>
+        </nav>   
+           <!-- /. NAV TOP  -->
+           <!-- Aqui é o menu da lateral -->
+                <nav class="navbar-default navbar-side" role="navigation">
+            <div class="sidebar-collapse">
+                <ul class="nav" id="main-menu">
+				<li class="text-center">
+                    <img src="assets/img/find_user.png" class="user-image img-responsive"/>
+					</li>
+                
+                      <li>
+                        <a href="#"><i class="fa fa-edit fa-3x"></i> Cadastro <span class="fa arrow"></span></a>
+                        <ul class="nav nav-second-level">
+                    <li>
+                        <a   href="cadastra-usuario.html"><i class="fa fa-edit fa-3x"></i> Cadastra Usuário</a>
+                    </li>
+                     <li>
+                        <a  href="cadastra-itens.html"><i class="fa fa-edit fa-3x"></i>Cadastra Itens </a>
+                    </li>
+                    <li>
+                        <a  href="cadastra-mesas.html"><i class="fa fa-edit fa-3x"></i>Cadastra Mesas</a>
+                    </li>
+                        </ul>
+                    </li>
+                        <li>
+                        <a href="#"><i class="fa fa-table fa-3x"></i> Visualizar <span class="fa arrow"></span></a>
+                        <ul class="nav nav-second-level">
+                    <li>    
+                        <a   href="visualiza-itens.html"><i class="fa fa-edit fa-3x"></i>Visualizar Itens</a>
+                    </li>
+                     <li>
+                        <a  class="active-menu" href="visualiza-pedidos.html"><i class="fa fa-edit fa-3x"></i>Visualizar Pedidos </a>
+                    </li>
+                    <li>
+                        <a  href="#"><i class="fa fa-edit fa-3x"></i>Visualizar Mesas</a>
+                    </li>
+                    </ul>
+                   <li>
+                        <a href="#"><i class="fa fa-table fa-3x"></i> Cadastro <span class="fa arrow"></span></a>
+                        <ul class="nav nav-second-level">
+                    <li>
+                        <a  href="#"><i class="fa fa-edit fa-3x"></i>Visualizar </a>
+                    </li>
+                    </li>
+                    </ul>
+                     <li>
+                        <a href="#"><i class="fa fa-table fa-3x"></i> Fechar Conta <span class="fa arrow"></span></a>
+                        <ul class="nav nav-second-level">
+                    <li>
+                        <a   href="#"><i class="fa fa-edit fa-3x"></i>Fechar</a>
+                    </li>
+                    
+            </div>
+            
+        </nav>
+        <!-- FIM DO MENU DA LATERAL  -->
+
+        <!-- /. NAV SIDE  -->
+        <!-- /. AQUI COMEÇA A ÁREA DE EXIBIÇÃO DA TABELA -->
+        <div id="page-wrapper" >
+            <div id="page-inner">
+                <div class="row">
+                    <div class="col-md-12">
+                     <h2>Visualizar pedidos</h2>   
+                        <h5>Bem-vindo de volta NOME_CLIENTE, é bom vê-lo novamente. </h5>
+                       
+                    </div>
+                </div>
+                 <!-- /. ROW  -->
+                 <hr />
+               
+            <div class="row">
+                <div class="col-md-12">
+                    <!-- Advanced Tables -->
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                             Lista completa de pedidos.
+                        </div>
+                        <div class="panel-body">
+                            <div class="table-responsive">
+                                <table class="table table-striped table-bordered table-hover" id="dataTables-example">
+                                    <thead>
+                                        <tr>
+                                            <th>Id</th>
+                                            <th>Garçon</th>
+                                            <th>N. de í tens</th>
+                                            <th>Data e hora</th>
+                                            <th>Mesa</th>
+                                            <th>Pagamento</th>
+                                            <th>Total</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr class="odd gradeX">
+                                            <td>000 001</td>
+                                            <td>Manoel Pereira</td>
+                                            <td> 19</td>
+                                            <td class="center">07/08/15 22:22</td>
+                                            <td class="center">01</td>
+                                            <td class="center">Cartão 3X</td>
+                                            <td class="center">R$ 250,00</td>                                            
+                                        </tr>
+
+                                        <tr class="odd gradeX">
+                                            <td>000 002</td>
+                                            <td>Manoel Pereira</td>
+                                            <td> 15</td>
+                                            <td class="center">07/08/15 22:21</td>
+                                            <td class="center">02</td>
+                                            <td class="center">Débito</td>
+                                            <td class="center">R$ 150,00</td>                                            
+                                        </tr>
+
+                                        <tr class="odd gradeX">
+                                            <td>000 003</td>
+                                            <td>Joaquim Mendonça</td>
+                                            <td> 2</td>
+                                            <td class="center">07/08/15 22:20</td>
+                                            <td class="center">03</td>
+                                            <td class="center"> A vista</td>
+                                            <td class="center">R$ 10,00</td>                                            
+                                        </tr>
+                                        
+
+                                        
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                            
+                        </div>
+                    </div>
+                    <!--End Advanced Tables -->
+                </div>
+            </div>
+                <!-- /. ROW  -->
+           <!-- end  Context Classes  -->
+                </div>
+            </div>
+                <!-- /. ROW  -->
+        </div>
+               
+    </div>
+             <!-- /. PAGE INNER  -->
+            </div>
+         <!-- /. PAGE WRAPPER  -->
+     <!-- /. WRAPPER  -->
+    <!-- SCRIPTS -AT THE BOTOM TO REDUCE THE LOAD TIME-->
+    <!-- JQUERY SCRIPTS -->
+    <script src="assets/js/jquery-1.10.2.js"></script>
+      <!-- BOOTSTRAP SCRIPTS -->
+    <script src="assets/js/bootstrap.min.js"></script>
+    <!-- METISMENU SCRIPTS -->
+    <script src="assets/js/jquery.metisMenu.js"></script>
+     <!-- DATA TABLE SCRIPTS -->
+    <script src="assets/js/dataTables/jquery.dataTables.js"></script>
+    <script src="assets/js/dataTables/dataTables.bootstrap.js"></script>
+        <script>
+            $(document).ready(function () {
+                $('#dataTables-example').dataTable();
+            });
+    </script>
+         <!-- CUSTOM SCRIPTS -->
+    <script src="assets/js/custom.js"></script>
+    
+   
+</body>
+</html>

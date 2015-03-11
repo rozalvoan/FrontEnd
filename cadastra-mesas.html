@@ -1,0 +1,164 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+      <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cardápio Digital</title>
+	<!-- BOOTSTRAP STYLES-->
+    <link href="assets/css/bootstrap.css" rel="stylesheet" />
+     <!-- FONTAWESOME STYLES-->
+    <link href="assets/css/font-awesome.css" rel="stylesheet" />
+        <!-- CUSTOM STYLES-->
+    <link href="assets/css/custom.css" rel="stylesheet" />
+     <!-- GOOGLE FONTS-->
+   <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css' />
+</head>
+<body>
+    <div id="wrapper">
+        <nav class="navbar navbar-default navbar-cls-top " role="navigation" style="margin-bottom: 0">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".sidebar-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="index.html">Administrador</a> 
+            </div>
+  <div style="color: white;
+padding: 15px 50px 5px 50px;
+float: right;
+font-size: 16px;"><a href="#" class="btn btn-danger square-btn-adjust">Login</a> </div>
+        </nav>   
+           <!-- /. NAV TOP  -->
+                <nav class="navbar-default navbar-side" role="navigation">
+            <div class="sidebar-collapse">
+                <ul class="nav" id="main-menu">
+				<li class="text-center">
+                    <img src="assets/img/logo.gif" class="user-image img-responsive"/>
+					</li>
+				<li>
+                        <a href="#"><i class="fa fa-edit fa-3x"></i> Cadastro <span class="fa arrow"></span></a>
+                        <ul class="nav nav-second-level">
+                    <li>
+					
+                  <li>
+                        <a   href="cadastra-usuario.html"><i class="fa fa-edit fa-3x"></i> Cadastra Usuário</a>
+                    </li>
+                     <li>
+                        <a   href="cadastra-itens.html"><i class="fa fa-edit fa-3x"></i>Cadastra Itens </a>
+                    </li>
+                    <li>
+                        <a  class="active-menu" href="cadastra-mesas.html"><i class="fa fa-edit fa-3x"></i>Cadastra Mesas</a>
+                    </li>
+                         	
+                </ul>
+                <li>
+                        <a href="#"><i class="fa fa-table fa-3x"></i> Visualizar <span class="fa arrow"></span></a>
+                        <ul class="nav nav-second-level">
+                    <li>
+                        <a  href="visualiza-itens.html"><i class="fa fa-edit fa-3x"></i>Visualizar Itens</a>
+                    </li>
+                     <li>
+                        <a  href="#"><i class="fa fa-edit fa-3x"></i>Visualizar Pedidos </a>
+                    </li>
+                    <li>
+                        <a  href="#"><i class="fa fa-edit fa-3x"></i>Visualizar Mesas</a>
+                    </li>
+                    </ul>
+                    <li>
+                        <a href="#"><i class="fa fa-table fa-3x"></i> Cadastro <span class="fa arrow"></span></a>
+                        <ul class="nav nav-second-level">
+                    <li>
+                        <a  href="#"><i class="fa fa-edit fa-3x"></i>Visualizar </a>
+                    </li>
+                    </li>
+                    </ul>
+                     <li>
+                        <a href="#"><i class="fa fa-table fa-3x"></i> Fechar Conta <span class="fa arrow"></span></a>
+                        <ul class="nav nav-second-level">
+                    <li>
+                        <a   href="#"><i class="fa fa-edit fa-3x"></i>Fechar</a>
+                    </li>
+            </div>
+            
+        </nav>  
+        <!-- /. NAV SIDE  -->
+        <div id="page-wrapper" >
+            <div id="page-inner">
+                <div class="row">
+                    <div class="col-md-12">
+                     <h2>Cadastrar Mesas </h2>   
+                        <h5>Seja bem vindo , a tela de cadastro de mesas. </h5>
+                       
+                    </div>
+                </div>
+                  <hr />
+               <div class="row">
+                <div class="col-md-12">
+                    <!-- Form Elements -->
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            Formulario de cadastro</div>
+                        <div class="panel-body">
+                            <div class="row">
+                                <div class="col-md-6">
+                                                                     <form role="form">
+                                        <div class="form-group">
+                                            <label>Número :</label>
+                                            <input class="form-control" />
+                                            <p class="help-block"></p>
+                                        </div>
+                                       
+
+</form>
+
+                                 
+    </div>
+                                
+                            <div class="row">
+                             <div class="col-md-6">
+                                                                     <form role="form">
+                                       
+                                  
+                                       
+
+                                         
+                                        <div class="form-group">
+                                                 <label>Situação da mesa :</label>
+                                            <div class="radio">
+                                                <label>
+                                                    <input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked />Livre
+                                                </label>
+                                            </div>
+                                             <div class="radio">
+                                                <label>
+                                                    <input type="radio" name="optionsRadios" id="optionsRadios2" value="option2"/>Ocupada
+                                                </label>
+                                            </div>
+                                        </div>
+                                       
+                                         
+                                                 <a href="#" class="btn btn-danger btn-lg">Cadastrar</a>
+                                                                                                 <a href="#" class="btn btn-danger btn-lg">Editar</a>
+                     <a href="#" class="btn btn-danger btn-lg">Excluir</a>
+
+                                        </form> 
+
+                                        </div>
+                                        </div>
+                                        </div>
+
+    <!-- SCRIPTS -AT THE BOTOM TO REDUCE THE LOAD TIME-->
+    <!-- JQUERY SCRIPTS -->
+    <script src="assets/js/jquery-1.10.2.js"></script>
+      <!-- BOOTSTRAP SCRIPTS -->
+    <script src="assets/js/bootstrap.min.js"></script>
+    <!-- METISMENU SCRIPTS -->
+    <script src="assets/js/jquery.metisMenu.js"></script>
+      <!-- CUSTOM SCRIPTS -->
+    <script src="assets/js/custom.js"></script>
+    
+   
+</body>
+</html>
