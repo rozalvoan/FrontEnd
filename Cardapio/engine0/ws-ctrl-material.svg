@@ -1,0 +1,15 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg">
+<metadata>Copyright (C) 2015 by original authors @ fontello.com</metadata>
+<defs>
+<font id="ws-ctrl-material" horiz-adv-x="1000" >
+<font-face font-family="ws-ctrl-material" font-weight="400" font-stretch="normal" units-per-em="1000" ascent="850" descent="-150" />
+<missing-glyph horiz-adv-x="1000" />
+<glyph glyph-name="ic_chevron_left_48px" unicode="&#xe800;" d="m642 541l-59 59-250-250 250-250 59 59-191 191z" horiz-adv-x="1000" />
+<glyph glyph-name="ic_chevron_right_48px" unicode="&#xe801;" d="m417 600l-59-59 191-191-191-191 59-59 250 250z" horiz-adv-x="1000" />
+<glyph glyph-name="ic_play_arrow_48px" unicode="&#xe802;" d="m333 642v-584l459 292z" horiz-adv-x="1000" />
+<glyph glyph-name="ic_pause_48px" unicode="&#xe803;" d="m250 58h167v584h-167v-584z m333 584v-584h167v584h-167z" horiz-adv-x="1000" />
+</font>
+</defs>
+</svg>
