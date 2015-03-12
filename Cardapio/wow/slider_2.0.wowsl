@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VisualLightBox>
+    <Gallery version="2.5">
+        <Settings>
+            <AppName>WOW Slider</AppName>
+            <AppUrlS>WOWSlider.com</AppUrlS>
+            <AppVersion>7.7</AppVersion>
+            <AutoPlay>false</AutoPlay>
+            <AutoPlayVideo>false</AutoPlayVideo>
+            <Captions>true</Captions>
+            <CaptionsEffect>parallax</CaptionsEffect>
+            <Controls>false</Controls>
+            <FontSize>13</FontSize>
+            <FullScreen>false</FullScreen>
+            <GalleryName>slider_2</GalleryName>
+            <GallerySuffix>3</GallerySuffix>
+            <HtmlCharset>UTF-8</HtmlCharset>
+            <ImageAspectRatio>true</ImageAspectRatio>
+            <ImageEffect>book</ImageEffect>
+            <ImageFillColor>#000000</ImageFillColor>
+            <ImageHeight>360</ImageHeight>
+            <ImageQuality>90</ImageQuality>
+            <ImageShrink2>false</ImageShrink2>
+            <ImageStretch>true</ImageStretch>
+            <ImageTemplate>C:/Program Files (x86)/WOW Slider/templates/backgnd/twist/</ImageTemplate>
+            <ImageTemplateName>Twist</ImageTemplateName>
+            <ImageWidth>640</ImageWidth>
+            <Images>true</Images>
+            <JoomlaType>2.5</JoomlaType>
+            <OneLoop>false</OneLoop>
+            <OrderRandom>false</OrderRandom>
+            <PlayPause>false</PlayPause>
+            <Preloader>false</Preloader>
+            <PublishFileName>E:/PROJETOS/GitHub/projeto 1.0/Codigos/Pagina Escolha pedido/blank - Copia.html</PublishFileName>
+            <PublishIndex>blank - Copia.html</PublishIndex>
+            <PublishPath>E:/PROJETOS/GitHub/projeto 1.0/Codigos/Pagina Escolha pedido</PublishPath>
+            <PublishPreview>true</PublishPreview>
+            <PublishType>page</PublishType>
+            <RelativePath>false</RelativePath>
+            <ShowBullets>0</ShowBullets>
+            <ShowControls>false</ShowControls>
+            <ShowTooltips>1</ShowTooltips>
+            <SizeStyle>3</SizeStyle>
+            <SlideshowDelay>20</SlideshowDelay>
+            <SlideshowDuration>20</SlideshowDuration>
+            <SoundEnable>0</SoundEnable>
+            <SoundFileName></SoundFileName>
+            <StopOnHover>false</StopOnHover>
+            <SwipeSupport>2</SwipeSupport>
+            <TemplateColor>#ff0000</TemplateColor>
+            <TemplateFont>PT Sans</TemplateFont>
+            <TemplateName>twist</TemplateName>
+            <ThumbAlign>right</ThumbAlign>
+            <ThumbFormat>jpg</ThumbFormat>
+            <ThumbHeight>48</ThumbHeight>
+            <ThumbQuality>90</ThumbQuality>
+            <ThumbWidth>0</ThumbWidth>
+            <Thumbnails>true</Thumbnails>
+            <TooltipPos>bottom</TooltipPos>
+            <noFrame>0</noFrame>
+        </Settings>
+        <Images RelativePath="false">
+            <Image>
+                <url>E:/PROJETOS/GitHub/projeto 1.0/Imagens/001.jpg</url>
+                <title>001</title>
+                <description>ssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss</description>
+                <filesize>417447</filesize>
+            </Image>
+            <Image>
+                <url>E:/PROJETOS/GitHub/projeto 1.0/Imagens/002.jpg</url>
+                <title>002</title>
+                <description>ddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd</description>
+                <filesize>346540</filesize>
+            </Image>
+            <Image>
+                <url>E:/PROJETOS/GitHub/projeto 1.0/Imagens/003.jpg</url>
+                <title>003</title>
+                <description>fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff</description>
+                <filesize>374177</filesize>
+            </Image>
+            <Image>
+                <url>E:/PROJETOS/GitHub/projeto 1.0/Imagens/004.jpg</url>
+                <title>004</title>
+                <filesize>382969</filesize>
+            </Image>
+            <Image>
+                <url>E:/PROJETOS/GitHub/projeto 1.0/Imagens/005.jpg</url>
+                <title>005</title>
+                <filesize>521410</filesize>
+            </Image>
+        </Images>
+    </Gallery>
+</VisualLightBox>
