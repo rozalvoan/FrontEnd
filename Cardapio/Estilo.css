@@ -34,3 +34,7 @@ a {
     width: 60px;
     background-color: #dddddd;
 	}
+
+.activate {
+	background-color: #FF9900;
+}
