@@ -4783,8 +4783,8 @@ a.badge:focus {
 }
 .list-group-item.active > .badge,
 .nav-pills > .active > a > .badge {
-  color: #337ab7;
-  background-color: #fff;
+  color: #337ab7; /* #337ab7  >  #CC5200 */
+  background-color: #CC5200;
 }
 .list-group-item > .badge {
   float: right;
