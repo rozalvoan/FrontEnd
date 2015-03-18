@@ -1,0 +1,62 @@
+﻿body {
+	background-color:#FF9900;
+	}
+
+.logo {
+	
+	height:40%;
+	width:40%;
+	position:absolute;
+	margin-left:28%;
+	margin-top:8%;
+}
+
+.Bt-chamag:hover {
+background-image: linear-gradient(to bottom, transparent, rgba(0,0,0,.30));
+cursor: pointer;
+}
+
+.Bt-cardapio:hover {
+background-image: linear-gradient(to bottom, transparent, rgba(0,0,0,.30));
+cursor: pointer;
+}
+
+
+.Bt-cardapio {
+	position:absolute;
+	margin-top:33%;
+	margin-left:13%;
+	background-color: #8F0000;
+	color: #ffffff;
+	padding: 3% 5%;
+	text-decoration: none;
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 20px;
+	border: 1px;
+	border-radius: 45px;
+
+}
+
+.Bt-chamag {
+	position:absolute;
+	margin-top:33%;
+	margin-left:66%;
+	background-color: #8F0000;
+	color: #ffffff;
+	padding: 3% 5%;
+	text-decoration: none;
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 20px;
+	border: 1px;
+	border-radius: 45px;
+
+}
+
+.msgalerta {
+	position:absolute;
+	margin-top: 41%;
+	margin-left:66%;	
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 20px;
+
+}
